@@ -2,7 +2,7 @@
 library("plyr")
 
 # set working directory where all data is located
-setwd("~/Coursera/Getting\ and\ Cleaning\ Data/Peer\ Assignment/UCI HAR Dataset/")
+#setwd("~/Coursera/Getting\ and\ Cleaning\ Data/Peer\ Assignment/UCI HAR Dataset/")
 
 # Read the "X_train.txt" file located under "train" folder. The argument "as.is" makes sure the specified columns don't get converted to factors.
 df_train<- read.table("train/X_train.txt",sep="",header=FALSE,as.is=c(1:561),col.names=c(1:561),strip.white=TRUE)
