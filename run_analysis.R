@@ -1,7 +1,7 @@
 # include the "plyr" package for ddply function
 library("plyr")
 
-# set working directory where all data is located
+# MOST IMPORTANT: set working directory where all data is located, the code will NOT run otherwise.
 #setwd("~/Coursera/Getting\ and\ Cleaning\ Data/Peer\ Assignment/UCI HAR Dataset/")
 
 # Read the "X_train.txt" file located under "train" folder. The argument "as.is" makes sure the specified columns don't get converted to factors.
